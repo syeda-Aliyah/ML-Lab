@@ -6,7 +6,7 @@ import numpy as np
 data = pd.read_csv('enjoysport.csv')
 #Reading all the atttributes
 concepts = np.array(data)[:,:-1]
-#reading all the targets
+#Reading all the targets
 target = np.array(data)[:,-1]
 
 #training the algorithm
